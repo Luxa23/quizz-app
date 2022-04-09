@@ -3,7 +3,8 @@ nav {
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  _overflow: hidden;
   height: 3rem;
   width: 100%;
   background-color: antiquewhite;
@@ -13,21 +14,4 @@ nav {
   position: fixed;
   bottom: 0;
   left: 0;
-}
-
-/*navi-Elemente gleichmäßig verteilen*/
-ul {
-  display: flex;
-  _flex-direction: row;
-  _justify-content: space-around;
-  /* align-content: center; */
-  column-gap: 25px;
-}
-
-li {
-  list-style: none;
-}
-
-nav__li {
-  list-style: "🏠";
 }
