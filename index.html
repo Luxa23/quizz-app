@@ -19,7 +19,12 @@
         <h2>Question about colors</h2>
         <p>What is Pantone's Color of the Year 2022?</p>
         <!-- Styling Button separat -->
-        <button class="button button--show">Show answer</button>
+        <button data-js="showAnswer">Toggle answer</button>
+        <div>
+          <span data-js="question" class="card__answer--hidden"
+            >Very Peri #6667AB
+          </span>
+        </div>
         <div class="container__tags">
           <span class="tag">Colors</span>
           <span class="tag">Creativity</span>
@@ -82,5 +87,6 @@
         <a href="#">Profile</a>
       </nav>
     </footer>
+    <script src="/main.js"></script>
   </body>
 </html>
