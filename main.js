@@ -7,3 +7,11 @@ buttonShowAnswer.addEventListener("click", () => {
   question.classList.toggle("card__answer--show");
   console.log(question);
 });
+
+const bookmark = document.querySelector("[data-js = 'svg']");
+const bookmarkActive = document.querySelector("[data-js = 'svg-active']");
+
+bookmark.addEventListener("click", () => {
+  bookmarkActive.classList.toggle("bookmark--active");
+  console.log(bookmarkActive);
+});
