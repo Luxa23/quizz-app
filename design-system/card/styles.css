@@ -25,6 +25,13 @@ p {
   font-size: 0.8rem;
 }
 
+.card__answer--hidden {
+  color: rgb(227, 202, 215);
+}
+
+.card__correct-answer {
+}
+
 .container__tags {
   display: flex;
   flex-direction: row;
