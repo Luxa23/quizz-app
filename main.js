@@ -1,4 +1,4 @@
-const bookmark = document.querySelector("[data-js = 'svg']");
+const bookmark = document.querySelector("[data-js = 'svg--bookmark']");
 
 bookmark.addEventListener("click", () => {
   bookmark.classList.toggle("bookmark--active");
