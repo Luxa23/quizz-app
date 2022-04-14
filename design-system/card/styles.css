@@ -14,6 +14,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 h2 {
   margin-bottom: 0;
@@ -29,7 +30,19 @@ p {
   color: rgb(227, 202, 215);
 }
 
-.card__correct-answer {
+.card__answer--show {
+  color: #6667ab;
+}
+
+svg {
+  color: #fcf6ef;
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
+}
+
+.bookmark--active {
+  color: #4c2b50;
 }
 
 .container__tags {
