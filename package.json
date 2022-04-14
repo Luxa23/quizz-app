@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/annarolfes/quizz-app/issues"
   },
-  "homepage": "https://github.com/annarolfes/quizz-app#readme"
+  "homepage": "https://github.com/annarolfes/quizz-app#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
 }
