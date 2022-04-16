@@ -1,0 +1,19 @@
+* {
+  _outline: 2px solid red;
+}
+
+.figure {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* move to other css file */
+.img--profile {
+  width: 200px;
+}
+
+figcaption {
+  padding: 2rem 0;
+  font-weight: bold;
+}

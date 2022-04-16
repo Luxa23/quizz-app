@@ -1,6 +1,7 @@
-@import url("/base.css");
-@import url("/design-system/headlines/styles.css");
-@import url("/design-system/navigation-bar/styles.css");
-@import url("/design-system/card/styles.css");
-@import url("/design-system/tags/styles.css");
-@import url("/design-system/button/styles.css");
+@import url('/base.css');
+@import url('/design-system/headlines/styles.css');
+@import url('/design-system/navigation-bar/styles.css');
+@import url('/design-system/card/styles.css');
+@import url('/design-system/tags/styles.css');
+@import url('/design-system/button/styles.css');
+@import url('/design-system/figure/styles.css');
