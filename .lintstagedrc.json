@@ -1,4 +1,4 @@
 {
-    "*": " npx prettier --ignore-unknown --write",
+    "*": "prettier --ignore-unknown --write",
     "*.html": ["htmlhint"]
   } 
