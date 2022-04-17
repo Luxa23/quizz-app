@@ -20,9 +20,6 @@ body {
 }
 
 main {
-  margin-top: 6rem;
-}
-/* move to other css file */
-.img--profile {
-  width: 200px;
+  margin-top: 7rem;
+  margin-left: 2rem;
 }
