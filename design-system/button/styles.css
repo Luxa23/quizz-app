@@ -8,3 +8,8 @@ button {
   font-family: var(--font-family);
   font-weight: 600;
 }
+
+.button--logout {
+  margin-top: 1.5rem;
+  display: flex;
+}
