@@ -9,7 +9,7 @@ button {
   font-weight: 600;
 }
 
-.button--logout {
+.button--center {
   margin-top: 1.5rem;
   display: flex;
 }
