@@ -16,24 +16,29 @@
   <body>
     <!--main header-->
     <header class="main--header">
-      <h1>Create</h1>
+      <h1>Add question</h1>
     </header>
 
     <!--main content-->
     <main>
-      <div>
+      <div class="container__add-question">
         <label for="add-question">Add question</label>
-        <input type="text" />
+        <textarea
+          id="add-question"
+          name="question"
+          type="text"
+          rows="4"
+        ></textarea>
       </div>
       <div>
         <label for="add-answer">Add answer</label>
-        <input type="text" />
+        <textarea id="add-answer" name="answer" type="text" rows="4"></textarea>
       </div>
       <div>
         <label for="add-tags">Add tags (separated by comma)</label>
         <input type="text" />
       </div>
-      <button class="button button--show">Show answer</button>
+      <button class="button button--center">Submit</button>
     </main>
     <!--footer-->
     <footer>
