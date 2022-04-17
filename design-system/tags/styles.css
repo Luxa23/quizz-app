@@ -14,7 +14,7 @@
 }
 
 .tag {
-  background-color: rgb(158, 104, 157);
+  background-color: rgb(158 104 157);
   border-radius: 3px;
   padding: 0.3rem;
   font-family: var(--font-family);

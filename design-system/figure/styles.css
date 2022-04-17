@@ -2,10 +2,10 @@
   _outline: 2px solid red;
 }
 
-.figure {
+.section__profile {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 /* move to other css file */
