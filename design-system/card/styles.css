@@ -3,11 +3,11 @@
 }
 
 .card {
-  background: rgb(227, 202, 215);
+  background: rgb(227 202 215);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin: 1rem;
-  box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.2);
+  box-shadow: 0px 2px 11px rgba(25 50 81 0.2);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -25,13 +25,19 @@ p {
   font-weight: 400;
 }
 
+/* answers to questions */
+p.secret {
+  display: none;
+}
+
+/* 
 .card__answer--hidden {
   color: rgb(227, 202, 215);
 }
 
 .card__answer--show {
   color: #6667ab;
-}
+} */
 
 svg {
   color: #fcf6ef;
@@ -52,7 +58,7 @@ svg {
 }
 
 .tag {
-  background-color: rgb(158, 104, 157);
+  background-color: rgb(158 104 157);
   border-radius: 3px;
   padding: 0.3rem;
   font-size: 0.8rem;
