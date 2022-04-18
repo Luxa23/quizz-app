@@ -1,9 +1,22 @@
-const bookmark = document.querySelector("[data-js = 'svg--bookmark']");
+const bookmarkToggle = document.querySelector("[data-js = 'svg--bookmark']");
 
-bookmark.addEventListener('click', () => {
-  bookmark.classList.toggle('bookmark--active');
-  console.log(bookmark);
-});
+function toggleBookmark() {
+  bookmarkToggle.addEventListener('click', () => {
+    bookmarkToggle.classList.toggle('bookmark--active');
+  });
+}
+
+toggleBookmark();
+
+const bookmarkToggle2 = document.querySelector("[data-js = 'svg--bookmark2']");
+
+function toggleBookmark2() {
+  bookmarkToggle2.addEventListener('click', () => {
+    bookmarkToggle2.classList.toggle('bookmark--active');
+  });
+}
+
+toggleBookmark2();
 
 const question = document.querySelector("[data-js = 'question']");
 const buttonShowAnswer = document.querySelector("[data-js = 'showAnswer']");
