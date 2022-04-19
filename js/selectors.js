@@ -1,5 +1,15 @@
-export const bookmarks = document.querySelectorAll(
-  "[data-js = 'svg--bookmark']"
-);
+function dataJS(name) {
+  return `[data-js='${name}']`;
+}
 
-export const cards = document.querySelectorAll('.card');
+function getAllElements(name, context = document) {
+  return context.querySelectorAll(dataJS(name));
+}
+
+export function getElement(name, context = document) {
+  return context.querySelector(dataJS(name));
+}
+
+export const bookmarks = getAllElements('svg--bookmark');
+
+export const cards = getAllElements('card');
