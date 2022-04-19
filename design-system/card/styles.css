@@ -13,6 +13,7 @@
   flex-direction: column;
   position: relative;
 }
+
 h2 {
   margin-bottom: 0;
   font-family: var(--font-family);
