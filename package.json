@@ -5,10 +5,10 @@
   "main": "index.html",
   "scripts": {
     "htmlhint": "htmlhint \"**/*.html\"",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "eslint": "eslint \"**/*.js\"",
     "stylelint": "stylelint \"**/*.css\"",
     "prettier": "prettier --write",
-    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "prepare": "husky install"
   },
   "repository": {
