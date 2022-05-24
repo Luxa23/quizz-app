@@ -7,7 +7,9 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin: 1rem;
-  box-shadow: 0px 2px 11px rgb(25, 50, 81, 0.2);
+
+  box-shadow: 0px 2px 11px rgba(25 50 81 0.2);
+
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -26,9 +28,17 @@ p {
   font-weight: 400;
 }
 
+/* answers to questions */
+p.secret {
+  display: none;
+}
+
+/* 
 .card__answer--hidden {
+
   color: rgb(227 202 215);
 }
+
 
 svg {
   color: #fcf6ef;
